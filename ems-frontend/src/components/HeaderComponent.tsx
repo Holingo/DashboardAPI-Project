@@ -3,8 +3,8 @@ import React from 'react';
 const HeaderComponent = () => {
     return (
         <div>
-            <header className="mx-auto max-w-7xl px-2 bg-black">
-                <a href="/" className="text-2xl font-medium text-white">Users Managment System</a>
+            <header className="mx-auto px-2 bg-black">
+                <a href="/" className="text-2xl font-medium text-white px-10">Users Managment System</a>
                 <nav className="flex sm:justify-center space-x-4 py-4 px-6">
                     {[
                         ['Home', '/'],
