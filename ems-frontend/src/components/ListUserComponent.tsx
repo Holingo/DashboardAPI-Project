@@ -61,13 +61,16 @@ const ListUserComponent = () => {
     };
 
     const handleDeleteUser = (userId: number) => {
-        deleteUser(userId)
-            .then(() => {
-                console.log(`User with ID ${userId} deleted`);
-                refreshUsers();
-            }).catch((error) => {
-                console.log(error);
-        });
+        const confirmDelete = window.confirm("Are you sure you want to delete this user?");
+        if (confirmDelete) {
+            deleteUser(userId)
+                .then(() => {
+                    console.log(`User with ID ${userId} deleted`);
+                    refreshUsers();
+                }).catch((error) => {
+                    console.log(error);
+                });
+        }
     };
 
     const sortUsers = (usersToSort: any[]) => {
