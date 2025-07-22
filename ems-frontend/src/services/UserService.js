@@ -9,3 +9,13 @@ export const listUsers = () => {
 export const createUser = (user) => {
     return axios.post(REST_API_BASE_URL, user);
 }
+
+export const getUser = (userId) => axios.get(REST_API_BASE_URL + `/` + userId);
+
+export const updateUser = (userId, user) => {
+    return axios.put(REST_API_BASE_URL + `/` + userId, user);
+}
+
+export const deleteUser = (userId) => {
+    return axios.delete(REST_API_BASE_URL + `/` + userId);
+}
