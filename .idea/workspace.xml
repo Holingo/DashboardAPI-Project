@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d31099d6-95fb-4b6a-ad4a-4b51026f91d7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ems-frontend/src/components/UserComponent.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ems-frontend/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/ems-frontend/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ems-frontend/src/components/HeaderComponent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/ems-frontend/src/components/HeaderComponent.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a4dd876d-8bc8-4f7a-8c50-2ab33af9e013.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a4dd876d-8bc8-4f7a-8c50-2ab33af9e013.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a4dd876d-8bc8-4f7a-8c50-2ab33af9e013/storage_v2/_src_/database/vcshine.3oKUEQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a4dd876d-8bc8-4f7a-8c50-2ab33af9e013/storage_v2/_src_/database/vcshine.3oKUEQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ems-frontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ems-frontend/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ems-frontend/src/components/ListUserComponent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/ems-frontend/src/components/ListUserComponent.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ems-frontend/src/components/UserComponent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/ems-frontend/src/components/UserComponent.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ems-frontend/src/services/UserService.js" beforeDir="false" afterPath="$PROJECT_DIR$/ems-frontend/src/services/UserService.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +96,9 @@
       <workItem from="1752843393432" duration="5018000" />
       <workItem from="1752859128399" duration="68000" />
       <workItem from="1752859386504" duration="9220000" />
-      <workItem from="1752931138311" duration="6750000" />
+      <workItem from="1752931138311" duration="8535000" />
+      <workItem from="1753030495713" duration="5025000" />
+      <workItem from="1753201444550" duration="9125000" />
     </task>
     <servers />
   </component>
