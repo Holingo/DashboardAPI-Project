@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d31099d6-95fb-4b6a-ad4a-4b51026f91d7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ems-backend/src/main/java/org/vcshine/ems/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ems-backend/src/main/java/org/vcshine/ems/dto/UserDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +47,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.EmsBackendApplication.executor": "Run",
-    "git-widget-placeholder": "feature/api",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "javascript.nodejs.core.library.configured.version": "20.15.0",
     "javascript.nodejs.core.library.typings.version": "20.15.0",
