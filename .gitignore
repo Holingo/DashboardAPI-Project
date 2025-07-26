@@ -5,7 +5,9 @@ ems-backend/.env
 # Frontend (Node/Vite)
 ems-frontend/node_modules/
 ems-frontend/dist/
-ems-frontend/.env
+ems-frontend/src/.env
+
+*.env
 
 # IDE
 *.iml
