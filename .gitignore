@@ -1,0 +1,22 @@
+# Backend (Spring Boot)
+ems-backend/target/
+ems-backend/.env
+
+# Frontend (Node/Vite)
+ems-frontend/node_modules/
+ems-frontend/dist/
+ems-frontend/src/.env
+
+*.env
+
+# IDE
+*.iml
+.idea/
+.vscode/
+
+# Systemowe
+.DS_Store
+Thumbs.db
+
+# Cache itp.
+*.cache

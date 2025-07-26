@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d31099d6-95fb-4b6a-ad4a-4b51026f91d7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a4dd876d-8bc8-4f7a-8c50-2ab33af9e013.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a4dd876d-8bc8-4f7a-8c50-2ab33af9e013.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a4dd876d-8bc8-4f7a-8c50-2ab33af9e013/storage_v2/_src_/database/vcshine.3oKUEQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a4dd876d-8bc8-4f7a-8c50-2ab33af9e013/storage_v2/_src_/database/vcshine.3oKUEQ/schema/public.abK9xQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ems-frontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ems-frontend/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ems-frontend/src/components/ListUserComponent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/ems-frontend/src/components/ListUserComponent.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ems-frontend/src/components/UserComponent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/ems-frontend/src/components/UserComponent.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ems-frontend/src/services/UserService.js" beforeDir="false" afterPath="$PROJECT_DIR$/ems-frontend/src/services/UserService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +45,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.EmsBackendApplication.executor": "Run",
-    "git-widget-placeholder": "ems-frontend",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "javascript.nodejs.core.library.configured.version": "20.15.0",
     "javascript.nodejs.core.library.typings.version": "20.15.0",
