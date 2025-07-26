@@ -4,6 +4,7 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.vcshine.ems.dto.UserDto;
 import org.vcshine.ems.entity.User;
+import org.vcshine.ems.exception.ResourceNotFoundException;
 import org.vcshine.ems.mapper.UserMapper;
 import org.vcshine.ems.repository.UserRepository;
 import org.vcshine.ems.service.UserService;
