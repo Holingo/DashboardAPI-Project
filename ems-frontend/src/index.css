@@ -1,1 +1,48 @@
 @import "tailwindcss";
+
+#loader {
+    position: fixed;
+    inset: 0;
+    background-color: #111416;
+    z-index: 9999;
+    animation: fadeOutLoader 2s ease 1s forwards;
+    pointer-events: none;
+}
+
+html, body, #root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+#root {
+    opacity: 0;
+    animation: fadeInApp 1s ease-out 1s forwards;
+}
+
+body {
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+footer.footer {
+    margin-top: auto;
+}
+
+@keyframes fadeOutLoader {
+    to {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+@keyframes fadeInApp {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
