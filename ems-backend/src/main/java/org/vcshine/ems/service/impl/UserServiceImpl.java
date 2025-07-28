@@ -1,6 +1,7 @@
 package org.vcshine.ems.service.impl;
 
 import lombok.RequiredArgsConstructor;
+import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 import org.vcshine.ems.dto.UserDto;
 import org.vcshine.ems.entity.User;
@@ -31,6 +32,13 @@ public class UserServiceImpl implements UserService {
                 .stream()
                 .map(UserMapper::toDto)
                 .collect(Collectors.toList());
+    }
+
+    @Override
+    public UserDto findByUsername(String username) {
+        User user = userRepository.findByUsername(username)
+                .orElseThrow(() -> new UsernameNotFoundException("User not found with username: " + username));
+        return UserMapper.toDto(user);
     }
 
     @Override
